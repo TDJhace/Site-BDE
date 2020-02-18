@@ -9,17 +9,20 @@ body{
 
 header{
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
+    justify-content: space-between;
     position:static;
     border:solid black;
-
+    height: 50px;
+    padding: auto;
 }
 
 #titre_principal{
+    position: relative;
+    height: 50px;
     display: flex;
     border:solid black;
-    padding:0px;
+    align-items: center;
 }
 
 header h1{
@@ -30,6 +33,7 @@ nav ul{
     list-style-type: none;
     display: flex;
     border:solid black;
+
 }
 
 nav li{
@@ -39,11 +43,25 @@ nav li{
 
 nav a{
     text-decoration: none;
+    color: black;
 }
 
 footer{
     display: flex;
-    border:solid blue;
+    color:white;
+    background-color: dimgray;
     justify-content: space-between;
 }
 
+footer a{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+#Associations{
+    display: flex;
+    flex-direction: column;
+}

@@ -12,7 +12,6 @@ header{
     align-items: flex-end;
     justify-content: space-between;
     position:static;
-    border:solid black;
     height: 50px;
     padding: auto;
 }
@@ -21,38 +20,31 @@ header{
     position: relative;
     height: 50px;
     display: flex;
-    border:solid black;
     align-items: center;
 }
 nav{
     display:flex;
     height: 50px;
-    border: solid black;
     align-items: center;
-}
-
-nav ul{
-    list-style-type: none;
-    display: flex;
-    border:solid black;
-    height: 50px;
-    align-items: center;
-}
-
-nav li{
-    display: flex;
-    justify-content: center;
-    border:solid black;
-    height: 50px;
-    width: 60px;
-    align-items: center;
-    text-align: center;
-    padding-inline: 20px;
 }
 
 nav a{
     text-decoration: none;
     color: black;
+}
+nav span{
+    background-color:white;
+    border: none;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+nav span:hover{
+    background-color: dodgerblue;
+    color: white;
 }
 
 footer{

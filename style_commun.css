@@ -17,6 +17,9 @@ header{
 }
 
 #titre_principal{
+    padding-inline: 15px;;
+    background-color: red;
+    color:white;
     position: relative;
     height: 50px;
     display: flex;

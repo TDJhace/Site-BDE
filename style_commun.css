@@ -58,8 +58,11 @@ nav a{
 footer{
     display: flex;
     color:white;
-    background-color: dimgray;
+    background-color: dodgerblue;
     justify-content: space-between;
+}
+.section_footer{
+    padding-inline: 30px;
 }
 
 footer a{

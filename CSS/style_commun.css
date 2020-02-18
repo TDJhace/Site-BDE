@@ -12,7 +12,7 @@ header{
     align-items: flex-end;
     justify-content: space-between;
     position:static;
-    height: 50px;
+    height: 175px;
     padding: auto;
 }
 
@@ -71,4 +71,18 @@ footer a:hover{
 #Associations{
     display: flex;
     flex-direction: column;
+}
+
+#logo_principal{
+    margin-left : 75px ;
+}
+
+.assos {
+    display: flex;
+    flex-direction: column;
+}
+
+.deux_assos{
+    display : flex;
+    flex-direction: row;
 }

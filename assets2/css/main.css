@@ -3086,6 +3086,11 @@
 			visibility: visible;
 		}
 
+/* FOUR */
+#four{
+	background-attachment: fixed;
+	background-image: url("./images/overlay.png");
+}
 /* Banner */
 video#bgvid {
 	position: fixed; right: 0; bottom: 0;

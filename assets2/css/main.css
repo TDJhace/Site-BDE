@@ -2907,10 +2907,14 @@
 
 				#header.alt nav a {
 					color: #ddd;
+					transform: scale(1);
+    				transition-property: transform;
+    				transition-duration: 400ms;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
 						color: #FFF;
+						transform: scale(1.15);
 					}
 
 			#header.alt .button {

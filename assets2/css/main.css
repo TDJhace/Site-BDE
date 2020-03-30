@@ -2826,6 +2826,19 @@
 			vertical-align: middle;
 		}
 
+		@media screen and (min-width: 1400px) {
+
+			#header h1 {
+				top: 0;
+			}
+
+			#header nav {
+				top: 0;
+			}
+	
+		}
+
+
 			#header nav ul {
 				list-style: none;
 				margin: 0;
@@ -2898,6 +2911,14 @@
 				color: #ffffff;
 				left: 2.5em;
 				top: 0em;
+			}
+
+			@media screen and (min-width: 1400px) {
+
+				#header.alt h1 {
+					top: 2em;
+				}
+		
 			}
 
 				#header.alt h1 a {

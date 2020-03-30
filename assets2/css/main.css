@@ -2334,8 +2334,12 @@
 
 		.image.rounded {
 			border-radius: 100%;
-			
-			
+			transform: scale(1);
+			transition: transform 1000ms;
+		}
+
+		.image.rounded:hover {
+			transform: scale(1.2);
 		}
 
 			.image.rounded img {
@@ -2381,6 +2385,10 @@
 			.image.main img {
 				width: 100%;
 			}
+		footer div ul a img{
+			position: relative;
+			top: 0.6em;
+		}
 
 /* List */
 
@@ -2944,7 +2952,7 @@
 				}
 
 				#header.alt h1 a strong{
-					text-shadow: 1.5px 1.5px #666;
+					text-shadow: 1.5px 1.5px rgb(70, 70, 70);
 				}
 
 			#header.alt nav {

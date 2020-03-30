@@ -2113,6 +2113,12 @@
 			box-shadow: none;
 		}
 
+		input[type="email"]:not(:focus):invalid{
+			background: #b20a37;
+                border-color: #b20a37;
+                color: #ffffff;
+		}
+
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,

@@ -3137,7 +3137,7 @@ video#bgvid {
 	}
 
 	#banner {
-		padding: 11em 0 11em 0;
+		padding: 9em 0 4em 0;
 		background-attachment: fixed;
 		background-image: url("./images/overlay.png");
 		background-position: top center;

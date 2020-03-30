@@ -2914,14 +2914,23 @@
 
 			#header.alt h1 {
 				color: #ffffff;
-				left: 2.5em;
+				font-size: 1.17em;
+				left: 2.2em;
 				top: 0em;
 			}
 
-			@media screen and (min-width: 1480px) {
+			@media screen and (min-width: 1680px) {
 
 				#header.alt h1 {
-					top: 1.6em;
+					top: 1.63em;
+				}
+		
+			}
+
+			@media screen and (min-width: 1420px) and (max-width:1680px) {
+
+				#header.alt h1 {
+					top: 1.73em;
 				}
 		
 			}

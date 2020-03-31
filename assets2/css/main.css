@@ -3190,10 +3190,21 @@ video#bgvid {
 	background-size: cover;
   }
 
+
 .youtube {
 	display : block;
 	margin-left : auto;
 	margin-right: auto;
+	width:"1080" ;
+	height:"607.5";
+}
+
+@media screen and (max-width : 980px) {
+	.youtube {
+		width : 90% ;
+		height: auto;
+		margin-bottom: 2em;
+	}
 }
 
 

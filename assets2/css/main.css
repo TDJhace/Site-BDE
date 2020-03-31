@@ -2987,11 +2987,11 @@
 	.navPanelToggle {
 		text-decoration: none;
 		text-decoration: none;
-		height: 100%;
+		height: 49px;
 		left: 0;
 		position: absolute;
 		top: 0;
-		width: 100%;
+		width: 76px;
 		display: none;
 	}
 
@@ -3341,6 +3341,7 @@ video#bgvid {
 				padding: 6em 0 4em 0;
 			}
 
+			
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3352,7 +3353,12 @@ video#bgvid {
 				#footer .icons {
 					font-size: 1em;
 				}
-
+			
+				#footer .logo img {
+					width : 40%;
+					height : auto;
+				}
+	
 		}
 
 		@media screen and (max-width: 480px) {

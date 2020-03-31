@@ -2976,8 +2976,40 @@
 
 		@media screen and (max-width: 980px) {
 
-			#header {
+			#header nav ul li  {
 				display: none;
+			}
+
+			#header.alt nav ul li  {
+				display: none;
+			}
+
+			#header.alt {
+				z-index: 1;
+			}
+			#header {
+				z-index: 1;
+				position: relative;
+				height: 1.5em;
+			}
+
+
+			#header.alt h1 {
+				margin-left: 3.5em;
+				text-align: center;
+				font-size: 70%;
+				line-height: 1.2em;
+				margin-top : 1.2em;
+				margin-right: 1em;;
+			
+			}
+
+			#header h1 {
+				margin-left: 4.2em;
+				text-align: center;
+				font-size: 70%;
+				line-height: 1.3em;
+			
 			}
 
 		}
@@ -2993,6 +3025,7 @@
 		top: 0;
 		width: 76px;
 		display: none;
+		z-index: 2;
 	}
 
 		.navPanelToggle:before {
@@ -3049,6 +3082,7 @@
 		width: 20em;
 		padding: 0.5em 1.25em;
 		text-transform: uppercase;
+		z-index: 3;
 	}
 
 		#navPanel ul {

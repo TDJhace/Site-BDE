@@ -3419,4 +3419,193 @@ video#bgvid {
 					padding: 0;
 				}
 
-		}
+        }
+        
+#map{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display:block;
+    border: 2px solid black;
+}
+
+#plan_campus{
+
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 900px;
+    height: 550px;
+    border: 2px solid black;
+}
+
+#Pole_Enseignement_1{
+    height: 37px;
+    width: 70px;
+    background-color: blue;
+    position: absolute;
+    top: 269px;
+    left: 234px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Pole_Enseignement_1:hover{
+    opacity: 0.5;
+}
+
+#Pole_Enseignement_2{
+    height: 45px;
+    width: 70px;
+    background-color: red;
+    position: absolute;
+    top: 224px;
+    left: 234px;
+    z-index: 5;
+    opacity: 0.5;
+}
+#Pole_Enseignement_2:hover{
+    opacity: 0.5;
+}
+
+#Pole_Enseignement_3{
+    height: 75px;
+    width: 40px;
+    background-color: orange;
+    position: absolute;
+    top: 227px;
+    left: 152px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Pole_Enseignement_3:hover{
+    opacity: 0.5;
+}
+
+#Pole_Sportif{
+    height: 45px;
+    width: 72px;
+    background-color: limegreen;
+    position: absolute;
+    top: 315px;
+    left: 155px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Pole_Sportif:hover{
+    opacity: 0.5;
+}
+
+#InnovSpace{
+    height: 43px;
+    width: 74px;
+    background-color: purple;
+    position: absolute;
+    top: 223px;
+    left: 304px;
+    z-index:2;
+    opacity: 0.5;
+}
+#InnovSpace:hover{
+    opacity: 0.5;
+}
+
+#Restaurant{
+    height: 40px;
+    width: 48px;
+    background-color:  blue;
+    position: absolute;
+    top: 223px;
+    left: 392px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Restaurant:hover{
+    opacity: 0.5;
+}
+
+#Pole_Residences_2{
+    height: 38px;
+    width: 90px;
+    background-color:  green;
+    position: absolute;
+    top: 326px;
+    left: 653px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Pole_Residences_2:hover{
+    opacity: 0.5;
+}
+
+#Pole_Residences_1{
+    height: 38px;
+    width: 213px;
+    background-color:  green;
+    position: absolute;
+    top: 288px;
+    left: 530px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Pole_Residences_1:hover{
+    opacity: 0.5;
+}
+
+#MDE{
+    height: 32px;
+    width: 40px;
+    background-color:  aqua;
+    position: absolute;
+    top: 328px;
+    left: 580px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#MDE:hover{
+    opacity: 0.5;
+}
+
+#Pole_Soutien{
+    height: 48px;
+    width: 63px;
+    background-color:  aqua;
+    position: absolute;
+    top: 160px;
+    left: 355px;
+    z-index: 2;
+    opacity: 0;
+}
+#Pole_Soutien:hover{
+    opacity: 0.5;
+}
+
+#Pole_Physique_Et_Systemes{
+    height: 80px;
+    width: 33px;
+    background-color:white;
+    position: absolute;
+    top: 225px;
+    left: 202px;
+    z-index: 2;
+    opacity:0.5;
+}
+#Pole_Physique_Et_Systemes:hover{
+    opacity: 0.5;
+}
+
+#Pole_Mecanique{
+    height: 100px;
+    width: 108px;
+    background-color: maroon;
+    position: absolute;
+    top: 400px;
+    left: 725px;
+    z-index: 2;
+    opacity: 0.5;
+}
+#Pole_Mecanique:hover{
+    opacity: 0.5;
+}

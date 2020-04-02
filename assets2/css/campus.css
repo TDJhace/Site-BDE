@@ -3992,14 +3992,13 @@ video#bgvid {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    display:block;
+    display: flex;
     border: 2px solid black;
 }
 
 #plan_campus{
-    max-width: 100%;
+	max-width: 100%;
     height: auto;
-    display : block;
     margin : auto;
     border: 2px solid black;
 }
@@ -4008,9 +4007,9 @@ video#bgvid {
     height: 37px;
     width: 70px;
     background-color: blue;
-    position: absolute;
-    top: 269px;
-    left: 234px;
+    position: relative;
+    top: 0px;
+    left: 0px;
     z-index: 2;
     opacity: 0.5;
 }

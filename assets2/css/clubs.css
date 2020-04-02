@@ -1855,7 +1855,7 @@
 			input[type="button"].icon:before,
 			button.icon:before,
 			.button.icon:before {
-				margin-right: 0.5em;
+				margin-right: 0.6em;
 			}
 
 		input[type="submit"].fit,
@@ -3448,6 +3448,33 @@ video#bgvid {
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: flex-end;
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 
 }
+
+#caroussels{
+	border-top: 6px dotted #f32853;
+	
+}
+
+.clubs_caroussel {
+	margin-top : 2em ;
+}
+
+#flexintro {
+	display : flex;
+	flex-direction: row;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+	@media screen and (max-width:1024px) {
+	
+	#flexintro {
+		flex-wrap: nowrap;
+	}
+	
+	#flexintro p {
+		display :none;
+	}
+
+	}

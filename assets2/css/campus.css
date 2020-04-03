@@ -2561,6 +2561,9 @@
 
 	.feature-grid {
 		position: relative;
+		max-width: 1900px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 		.feature-grid:after {
@@ -2570,18 +2573,22 @@
 		}
 
 		.feature-grid .feature {
+			position: relative;
 			display: inline-block;
 			float: left;
+			padding: 10px;
 			margin-bottom: 3em;
 			width: 50%;
+			height: 30%;
+
 		}
 
 			.feature-grid .feature .content {
-				width: 55%;
+				width: 50%;
 			}
 
 			.feature-grid .feature .image {
-				width: 30%;
+				width: 40%;
 			}
 
 				.feature-grid .feature .image img {
@@ -2597,7 +2604,7 @@
 
 			.feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
 				float: left;
-				margin-left: 5%;
+				margin-right: 5%;
 				text-align: left;
 			}
 
@@ -4012,7 +4019,7 @@ video#bgvid {
     font: inherit;
     vertical-align: baseline;
 	display: block;
-	position: absolute;
+	position: relative;
     border: 2px solid black;
 }
 
@@ -4022,4 +4029,15 @@ video#bgvid {
     display : block;
     margin : auto;
     border: 2px solid black;
+}
+
+#boite{
+	width: auto;
+	display: block;
+	margin: 3px;
+	background-color: silver;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
 }

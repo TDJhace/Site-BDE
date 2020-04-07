@@ -3483,22 +3483,35 @@ video#bgvid {
 	margin-top: 4em;
 	display :flex ;
 	flex-direction: column;
+
 }
 
 .club_alphabetique {
 	display : flex ;
 	flex-direction: column;
 	align-items: center;
+	margin-top : 5em;
+	width: 100%;
+	background-color: #f6f6f6;
 }
 
-.club_alphabetique.box{
-	border: 2px dotted black;
+.club_alphabetique p,ul{
+	margin-left: 0.8em;
+	margin-right: 0.8em;
+}
+
+.club_alphabetique h3 {
+	margin-top : 1em;
+	font-size : 1.5em;
+}
+.club_alphabetique a{
+	font-size: 1.3em;
 }
 
 .rowflex {
 	display : flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 }
 

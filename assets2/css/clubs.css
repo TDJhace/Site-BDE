@@ -3493,6 +3493,7 @@ video#bgvid {
 	margin-top : 5em;
 	width: 100%;
 	background-color: #f6f6f6;
+	border-radius: 10px;
 }
 
 .club_alphabetique p,ul{

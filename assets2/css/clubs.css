@@ -3542,3 +3542,23 @@ width: 70px;
 	}
 }
 
+.asso_inde {
+	display: block ;
+	padding-bottom: 5em;
+	border: 2px black dotted;
+}
+
+.asso_inde h3 {
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+.lien_centre {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#liste_inde {
+	margin-top : 5em ;
+	margin-bottom: 2em;
+}

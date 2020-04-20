@@ -3544,8 +3544,10 @@ width: 70px;
 
 .asso_inde {
 	display: block ;
-	padding-bottom: 5em;
-	border: 2px black dotted;
+	padding-bottom: 2em;
+	padding-top : 1em;
+	border-bottom: 3px #f6f6f6 dotted;
+
 }
 
 .asso_inde h3 {

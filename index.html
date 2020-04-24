@@ -6,9 +6,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets2/css/main.css" />
+	
 	</head>
 	<body class="landing">
 
+		
+		
 		<!-- Header -->
 
 			<video autoplay muted loop poster="./images/banner.jpg" id="bgvid">
@@ -45,6 +48,22 @@
 					<li><a href="alpha.html" class="button special big">Voir la vidéo Alpha</a></li>
 				</ul>
 			</section>
+		<div id="premeierAffichage" style="display:none;">
+			<div id="modal">
+				<h3>Bienvenue/Welcome !</h3>
+				<p> 
+					Le site est pour l'instant uniquement en français, mais il y a une page en anglais pour les étudiants étrangers.
+					<br>For the moment, the website is only in french, but there is an english page for international students.
+				</p>
+				<a href="english.html" class="button special">I Don't speak French !</a>
+				
+				<p>
+					<a onclick="close_overlay()" class="button small">C'est bon, la langue de Molière, je maîtrise</a>
+				</p>
+				<a id="close" onclick="close_overlay()" class="icon fa-times">Fermer/Close</a>
+			</div>
+			
+		</div>
 		
 
 			<!-- One -->
@@ -162,6 +181,7 @@
 			<script src="assets2/js/skel.min.js"></script>
 			<script src="assets2/js/util.js"></script>
 			<script src="assets2/js/main.js"></script>
+			<script src="assets2/js/first_visit.js"></script>
 
 	</body>
 </html>

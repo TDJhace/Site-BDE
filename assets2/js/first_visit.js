@@ -7,8 +7,7 @@ var cookieMgr = {
     set: function(name, value, days) {
       var expires = "";
       if (days) {
-        expires = "; expires=" +
-          new Date(new Date().getTime() + days*24*60*60*1000).toGMTString();
+        expires = "; expires=" + new Date(new Date().getTime() + days*24*60*60*1000).toGMTString();
       }
   
       document.cookie = name + "=" + escape(value) + expires + "; path=/";

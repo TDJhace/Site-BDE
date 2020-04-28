@@ -3445,3 +3445,13 @@ video#bgvid {
 	margin-left: 1em;
 	margin-right:1em;
 }
+
+#ban_campus {
+	width : 100%;
+	position: relative;
+	margin-bottom: 2.5em;
+}
+
+.texte_crochet h3 {
+	margin-top : -2em;
+}

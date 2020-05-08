@@ -3467,11 +3467,28 @@ video#bgvid {
 	color: #f6f6f6;
 }
 
-.texte_crochet h3 {
-	margin-top : -2em;
+.alpha_admissible h3 {
 	color: darkslategray;
+}
+
+.alpha_admissible{
+	margin-bottom: -1.5em;
+	margin-top : -5em;
+}
+
+@media screen and (max-width:980px) {
+	.alpha_admissible{
+		margin-bottom: 1em;
+		margin-top : -1.5em;
+	}
 }
 
 .contact_h3{
 	color: darkslategrey;
+}
+
+#image_center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

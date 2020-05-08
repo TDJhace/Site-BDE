@@ -3463,11 +3463,15 @@ video#bgvid {
 	padding-bottom: 1em;
 }
 
-#ban_campus h2,h3 {
+#ban_campus h2,h3{
 	color: #f6f6f6;
 }
 
 .texte_crochet h3 {
 	margin-top : -2em;
 	color: darkslategray;
+}
+
+.contact_h3{
+	color: darkslategrey;
 }

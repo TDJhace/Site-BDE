@@ -3450,8 +3450,24 @@ video#bgvid {
 	width : 100%;
 	position: relative;
 	margin-bottom: 2.5em;
+	background-image: url(../../images/campus_long.jpg);
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #32303746;
+}
+
+#ban_campus header{
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+
+#ban_campus h2,h3 {
+	color: #f6f6f6;
 }
 
 .texte_crochet h3 {
 	margin-top : -2em;
+	color: darkslategray;
 }

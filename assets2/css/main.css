@@ -3503,3 +3503,37 @@ video#bgvid {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#raisons {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+	
+}
+
+#raisons .box.alt{
+	font-size : 1.2em;
+	line-height: 100%;
+}	
+
+@media screen and (max-width:980px) {
+	#raisons .box.alt{
+		font-size : 1em;
+		line-height: 100%;
+	}
+}
+
+
+@media screen and (max-width:580px) {
+	#raisons .box.alt{
+		font-size : 0.75em;
+		line-height: 100%;
+	}
+}
+
+@media screen and (max-width:380px) {
+	#raisons .box.alt{
+		font-size : 0.65em;
+		line-height: 100%;
+	}
+}

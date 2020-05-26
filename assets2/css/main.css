@@ -3537,3 +3537,21 @@ video#bgvid {
 		line-height: 100%;
 	}
 }
+
+#groupes_bouton {
+	display: flex ;
+	flex-direction: row;
+	margin: auto ;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	margin-bottom: 2em;
+}
+
+
+.asso_bouton img{
+	display: block;
+	margin: auto;
+	max-width: 150px;
+	height: auto;
+}

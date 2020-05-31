@@ -3555,3 +3555,10 @@ video#bgvid {
 	max-width: 150px;
 	height: auto;
 }
+
+#atouts_sup {
+	display: block;
+	margin-bottom: 1em;
+	border: 1px #32303700 dotted;
+}
+

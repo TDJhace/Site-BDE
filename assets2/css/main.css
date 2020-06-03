@@ -3560,5 +3560,17 @@ video#bgvid {
 	display: block;
 	margin-bottom: 1em;
 	border: 1px #32303700 dotted;
+	margin-top: 1em;
 }
 
+#admis{
+	background-image: url("../../images/campus_long.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#end_admis{
+	margin-top: 3em;
+	text-align: center;
+}

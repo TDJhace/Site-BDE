@@ -3411,6 +3411,17 @@ video#bgvid {
 	
 		}
 
+		@media screen and (max-width: 630px) {
+			#footer .assos li {
+				border-left: solid 0px rgba(144, 144, 144, 0.25);
+
+				margin-left: 0.5em;
+				padding-left: 0.5em;
+				margin-right: 0.5em;
+				padding-right: 0.5em;
+			}
+		}
+
 		@media screen and (max-width: 480px) {
 
 			#footer {
@@ -3450,3 +3461,232 @@ video#bgvid {
 	margin-left: 1em;
 	margin-right:1em;
 }
+
+#ban_campus {
+	width : 100%;
+	position: relative;
+	margin-bottom: 2.5em;
+	background-image: url(../../images/campus_long.jpg);
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #32303746;
+}
+
+#ban_campus header{
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}
+
+#ban_campus h2,h3{
+	color: #f6f6f6;
+}
+
+.alpha_admissible h3 {
+	color: darkslategray;
+}
+
+.alpha_admissible{
+	margin-bottom: -1.5em;
+	margin-top : -5em;
+}
+
+@media screen and (max-width:980px) {
+	.alpha_admissible{
+		margin-bottom: 1em;
+		margin-top : -1.5em;
+	}
+}
+
+.contact_h3{
+	color: darkslategrey;
+}
+
+#image_center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#raisons {
+	margin-top: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+	
+}
+
+#raisons .box.alt{
+	font-size : 1.2em;
+	
+}	
+
+@media screen and (max-width:980px) {
+	#raisons .box.alt{
+		font-size : 1em;
+		line-height: 100%;
+	}
+}
+
+
+@media screen and (max-width:580px) {
+	#raisons .box.alt{
+		font-size : 0.75em;
+		line-height: 100%;
+	}
+}
+
+@media screen and (max-width:380px) {
+	#raisons .box.alt{
+		font-size : 0.65em;
+		line-height: 100%;
+	}
+}
+
+#groupes_bouton {
+	display: flex ;
+	flex-direction: row;
+	margin: auto ;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	margin-bottom: 2em;
+}
+
+
+.asso_bouton img{
+	display: block;
+	margin: auto;
+	max-width: 150px;
+	height: auto;
+}
+
+#atouts_sup {
+	display: block;
+	margin-bottom: 1em;
+	border: 1px #32303700 dotted;
+	margin-top: 1em;
+}
+
+#admis{
+	background-image: url("../../images/eleves.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#end_admis{
+	margin-top: 3em;
+	text-align: center;
+}
+
+.temoignage p {
+	text-align: end;
+	font-style: italic;
+	font-size: 1.2em;
+}
+
+#end_eleves {
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+#documents {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+
+}
+
+#documents h3 {
+	color: black;
+	font-style: normal;
+}
+
+@media screen and (max-width:980px) {
+	#documents img{
+		max-width: 60%;
+		height: auto;
+		
+	}
+
+	.doc_item1{
+		box-shadow: none;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.doc_item2{
+		box-shadow: none;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	.doc_item3{
+		box-shadow: none;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+
+.doc_item1{
+	text-align: center;
+	border: 5px black solid;
+	border-radius: 7px;
+	background-color: rgb(255, 253, 253);
+	box-shadow: -10px 10px 5px rgb(233, 230, 230);
+	transform:scale(1);
+	transition : transform 1100ms, box-shadow 800ms ;
+}
+.doc_item1 img{
+	padding: 1em 1em 1em 1em;
+	width: 300px;
+	height: auto;
+}
+
+.doc_item1:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+.doc_item2{
+	text-align: center;
+	border: 5px black solid;
+	border-radius: 7px;
+	background-color: rgb(255, 253, 253);
+	box-shadow: 0px 12px 5px rgb(233, 230, 230);
+	transform:scale(1);
+	transition : transform 1100ms, box-shadow 800ms ;
+}
+.doc_item2 img{
+	padding: 1em 1em 1em 1em;
+	width: 300px;
+	height: auto;
+}
+
+.doc_item2:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 5px #ddd;
+}
+.doc_item3{
+	text-align: center;
+	border: 5px black solid;
+	border-radius: 7px;
+	background-color: rgb(255, 253, 253);
+	box-shadow: 10px 10px 5px rgb(233, 230, 230);
+	transform:scale(1);
+	transition : transform 1100ms, box-shadow 800ms ;
+}
+.doc_item3 img{
+	padding: 1em 1em 1em 1em;
+	width: 300px;
+	height: auto;
+}
+
+.doc_item3:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 5px #ddd;
+}
+

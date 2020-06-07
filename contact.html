@@ -44,15 +44,15 @@
 
                 <section>
                     <h3 class="contact_h3">Formulaire de contact</h3>
-                    <form method="post" action="#">
+                    <form id="contact" method="post" action="./assets2/form.php">
                         <div class="row uniform 50%">
                             <div class="6u 12u$(xsmall)">
-                                <input type="text" name="name" id="name" value="" placeholder="Nom" />
+                                <input type="text" name="nom" id="nom" value="" placeholder="Nom" />
                             </div>
                             <div class="6u$ 12u$(xsmall)">
                                 <input type="email" name="email" id="email" value="" placeholder="Email" />
                             </div>
-                            <div class="12u$">
+                            <!-- <div class="12u$">
                                 <div class="select-wrapper">
                                     <select name="category" id="category">
                                         <option value="">- Type de demande -</option>
@@ -62,26 +62,34 @@
                                         <option value="1">Autre</option>
                                     </select>
                                 </div>
+                            </div> -->
+                            
+                            
+                            <div class="12u$ 12u$(small)">
+                                <input type="text" name="Objet" id="Objet" value="" placeholder="Objet" />
+                            </div>
+                            <div class="12u$">
+                                <textarea name="message" id="message" placeholder="Votre message" rows="6"></textarea>
                             </div>
                             <div class="6u 12u$(small)">
                                 <input type="checkbox" id="copy" name="copy">
                                 <label for="copy">Je souhaite recevoir une copie de ce mail</label>
                             </div>
                             <div class="6u$ 12u$(small)">
-                                <input type="checkbox" id="human" name="human" checked>
+                                <input type="checkbox" id="human" name="human">
                                 <label for="human">Je suis bien humain et non un robot polytechnicien</label>
                             </div>
                             <div class="12u$">
-                                <textarea name="message" id="message" placeholder="Votre message" rows="6"></textarea>
-                            </div>
-                            <div class="12u$">
                                 <ul class="actions">
-                                    <li><input type="submit" value="Envoyer" class="special" /></li>
+                                    <li><input type="submit" value="Envoyer" class="special" name="envoi" /></li>
                                     <li><input type="reset" value="Réinitialiser" /></li>
                                 </ul>
                             </div>
+                            
                         </div>
-                    </form>
+                    </form> 
+
+                   
                 </section>
             </div>
         </section>

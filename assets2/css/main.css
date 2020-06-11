@@ -3568,6 +3568,14 @@ video#bgvid {
 	margin-top: 1em;
 }
 
+@media screen and (max-width : 580px) {
+	#atouts_sup img{
+	
+		margin-bottom: -1em;
+		
+	}
+}
+
 #admis{
 	background-image: url("../../images/eleves.jpg");
 	background-repeat: no-repeat;

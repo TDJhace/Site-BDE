@@ -3667,6 +3667,8 @@ video#bgvid {
 	box-shadow: 0px 12px 5px rgb(233, 230, 230);
 	transform:scale(1);
 	transition : transform 1100ms, box-shadow 800ms ;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 .doc_item2 img{
 	padding: 1em 1em 1em 1em;

@@ -1,3 +1,0 @@
-REDIMENSIONNER IMAGES : https://www.iloveimg.com/fr/redimensionner-image
-===> Placer les images redimensionnées dans Contents, préciser à la fin la taille de l'image en pixel.
-Ex : je redimensionne logo.png qui se trouve dans images, je mets l'image redimensionnée en 200*200px dans Contents et je l'appelle logo_200.png

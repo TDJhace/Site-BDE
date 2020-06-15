@@ -7,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="assets2/css/main.css" />
         <link rel="icon" type="image/x-icon" href="images/logo.ico" />
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 	</head>
 	<body>
 
@@ -67,19 +68,25 @@
                             
                             
                             <div class="12u$ 12u$(small)">
-                                <input type="text" name="Objet" id="Objet" value="" placeholder="Objet" />
+                                <input type="text" name="objet" id="objet" value="" placeholder="Objet" />
                             </div>
                             <div class="12u$">
                                 <textarea name="message" id="message" placeholder="Votre message" rows="6"></textarea>
                             </div>
-                            <div class="6u 12u$(small)">
+
+                            <!-- <div class="6u 12u$(small)">
                                 <input type="checkbox" id="copy" name="copy">
                                 <label for="copy">Je souhaite recevoir une copie de ce mail</label>
                             </div>
                             <div class="6u$ 12u$(small)">
                                 <input type="checkbox" id="human" name="human">
                                 <label for="human">Je suis bien humain et non un robot polytechnicien</label>
+                            </div> -->
+
+                            <div class="g-recaptcha" 
+                            data-sitekey="6LfC6qQZAAAAAOnro-uuZeLR4NcoBMsE-1keQG7V">
                             </div>
+
                             <div class="12u$">
                                 <ul class="actions">
                                     <li><input type="submit" value="Envoyer" class="special" name="envoi" /></li>
